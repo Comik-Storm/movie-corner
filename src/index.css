@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.App {
+    max-width: 1000px;
+    margin: 20px auto;
+    font-size: 16px;
+    font-family: 'Quicksand', 'sans-serif';
+    color: #333;
+}
+
+.links {
+    margin-left: auto;
+}
+
+.links a {
+    text-decoration: none;
+    margin: auto 10px;
+    color: #333;
+}
+
+.links a:hover {
+    color: #20DECB;
+}
+.pokemon .card-md {
+    width: 18rem;
+    height: 42rem;
+}
+.form-control:focus, .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
