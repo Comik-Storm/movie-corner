@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
+import {Link} from "react-router-dom";
 
 const useFetchData = (url) => {
 
@@ -62,7 +63,7 @@ const Home = () => {
                                                 <br/>
                                                  {item.adult ? <span className="text-danger">Adult Only</span> : <span className="text-primary">All Ages</span>}
                                             </p>
-                                            <a className="btn btn-info" href={`/movie/${item.id}`}>Learn More</a>
+                                            <Link className="btn btn-info" to={`/movie/${item.id}`}>Learn More</Link>
                                         </div>
                                     </div>
                                 </div>
